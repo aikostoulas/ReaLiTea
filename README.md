@@ -18,7 +18,7 @@ Teachers, Modules 1–5) in [`modules/`](modules/) — see below.
 | File | Purpose |
 | --- | --- |
 | `index.html` | The complete, self-contained app (React, runtime and Barlow fonts are embedded; no network access needed). |
-| `framework.json` | **Required, not yet in the repo.** The framework's descriptors, loaded by `index.html` at start-up. |
+| `framework.json` | The framework's descriptors (64 competences × 4 levels) and the 32 Part I reflection questions, taken verbatim from *Developing the Research Literacy of Language Teachers* (v.3). Loaded by `index.html` at start-up. |
 | `modules/` | The WP3 self-study website (see below). |
 
 ## WP3 self-study modules (`modules/`)

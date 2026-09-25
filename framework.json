@@ -1,0 +1,848 @@
+{
+ "part1": [
+  {
+   "name": "Sociocultural",
+   "questions": [
+    "What resources (e.g., course availability, stipends) do you have access to for developing your research literacy?",
+    "To what extent are teachers expected to be research literate in your setting? Does this primarily mean that they are expected to ‘consume’ research or do they speak with authority about things they discovered in their classes?",
+    "What kinds of knowledge are teachers expected to be familiar with? Does this extend to being informed about recent empirical trends and findings?",
+    "To what extent are teachers expected to engage in research in your setting? Do teachers initiate knowledge-generation? Are there opportunities to share their findings?",
+    "To what extent are schools viewed as sites of knowledge production in your setting? What is their relation to other sites of knowledge production, such as universities and research centres?",
+    "To what extent are schools viewed as sites of professional development in your setting? What is their relation to other sites of professional development, such as universities and accreditation bodies?",
+    "What kinds of recognition might teachers expect from engaging in, or with research in your professional context?"
+   ]
+  },
+  {
+   "name": "Institutional",
+   "questions": [
+    "To what extent is developing a research literate faculty a priority in the institution?",
+    "How does the institution make use of research evidence, e.g., for course design, accountability or marketing purposes? What kind of evidence is used most frequently? To what extent is this evidence teacher-generated?",
+    "How much time is available for professional development? How much of this time is available for developing research literacy?",
+    "What resources (e.g., library access) are available for developing teacher research literacy within your institution?",
+    "To what extent is management likely to support teachers in developing research literacy?",
+    "What funding is available from your institution for developing teacher research literacy?",
+    "What expectations does the institution have regarding the research literacy of teachers?",
+    "What incentives are available for teachers to develop their research literacy?",
+    "To what extent does management recognize and/or reward teachers’ research literacy?"
+   ]
+  },
+  {
+   "name": "‘Small culture’",
+   "questions": [
+    "How open or trusting is your workplace culture?",
+    "To what extent is theoretical knowledge about language teaching valued in your workplace culture?",
+    "To what extent is initiative valued in your workplace culture?",
+    "To what extent is your workplace culture collaborative?",
+    "To what extent is your workplace characterised by a culture of inquiry?",
+    "To what extent is your workplace culture open to change?",
+    "Is there interest in the outcomes of teacher-led research?"
+   ]
+  },
+  {
+   "name": "Individual",
+   "questions": [
+    "How important is professional development to you?",
+    "In what ways do you believe that research literacy can help you develop as a teacher?",
+    "How capable do you consider yourself in generating knowledge?",
+    "To what extent are you motivated to begin or follow through with teacher research projects?",
+    "How likely are you to take risks?",
+    "To what extent do you believe it is part of your job to produce and share professional knowledge?",
+    "How confident are you that the findings of teacher research will not threaten you?",
+    "How comfortable do you feel collaborating with others?",
+    "How positive has your experience of teacher research been in the past?"
+   ]
+  }
+ ],
+ "facets": [
+  {
+   "code": "A",
+   "name": "Knowledge foundations",
+   "subsections": [
+    {
+     "code": "A1",
+     "name": "Linguistic proficiency",
+     "items": [
+      {
+       "code": "A1.1",
+       "name": "Oral communication skills",
+       "levels": [
+        "I can follow the main points of short, clearly delivered oral communications about language teaching (e.g., workshop talks, podcast episodes for teachers), when the topic is familiar and everyday language is used. I can talk about my classroom experience with colleagues in informal settings, with prompting from a knowledgeable other.",
+        "I can understand oral research communications (e.g., conference presentations, podcasts) on topics about which I have some previous knowledge. I may have some challenges with technical terms, but I can still understand the main points made. With adequate preparation and appropriate support, I can present research problems, an outline of how my classroom-based inquiries were conducted and the basic findings of my research to local audiences (e.g., peers).",
+        "I can understand oral research communications (e.g., conference presentations, podcasts) on a range of discipline-specific topics. I can infer technical terms without much difficulty. I can effortlessly present my research problems, describe the methodological steps taken and their rationale, and present and discuss findings and implications. I can participate in small conferences and confidently address specialised audiences.",
+        "I can understand oral research communications, including complicated academic exposition. I can effortlessly present my research in a variety of oral formats, using appropriate language for diverse audiences. I can participate in most types of knowledge exchange events, including national and international conferences, and share my work in a confident and authoritative way by adapting my communication style to fit the needs and expectations of the audience."
+       ]
+      },
+      {
+       "code": "A1.2",
+       "name": "Written communication skills",
+       "levels": [
+        "I can understand short, practice-oriented texts written for teachers (e.g., blog posts, teacher magazine articles, lay summaries of research), when the topic is familiar. I can use glossaries or explanations from a knowledgeable other to deal with technical terms. Using models and step-by-step guidance, I can produce short written accounts of my teaching (e.g., a reflective journal entry).",
+        "I can understand the content of introductory textbooks and research that is presented in writing for a generalist audience. I can use support from a knowledgeable other for more challenging passages. With appropriate support, I can present my classroom-based inquiry in simple formats such as posters and practically-oriented items such as blog posts.",
+        "I can understand the main points of most research articles. I can discuss more challenging passages with my peers to support my comprehension. With appropriate support, I can produce written descriptions of my empirical work, including articles and dissertations.",
+        "I can understand the content of most scholarship published in my areas of interest. I can share my work in a variety of written formats, using precise and authoritative language tailored to the expectations of my audience."
+       ]
+      },
+      {
+       "code": "A1.3",
+       "name": "Familiarity with research communication genres",
+       "levels": [
+        "I am aware that different types of texts about language teaching exist (e.g., teacher guidebooks, research articles, publishers' supportive materials) and, with support from a knowledgeable other, I can recognise which type a given text belongs to. I can use titles, abstracts and headings to get a general idea of what a text is about.",
+        "I can use the typical structure of a research article to guide my reading and writing. I am familiar with the differences between different types of texts for teachers, e.g., teacher guidebooks, research articles, publisher's supportive materials.",
+        "I am familiar with a variety of research writing genres (e.g. review article, research article, position paper) and can use this knowledge to guide my reading and writing.",
+        "I am familiar with communication conventions in language teaching research, and I am comfortable using or subverting them to deliver content effectively."
+       ]
+      },
+      {
+       "code": "A1.4",
+       "name": "Visual communication skills",
+       "levels": [
+        "I can extract basic information from simple, everyday visuals (e.g., a picture, a simple table or bar chart), with the help of guiding questions or explanations from a knowledgeable other. I can use templates provided to me to present information visually in simple ways.",
+        "I can extract information from simple visual support elements. I can understand how processes are visually represented (e.g., in flow charts). I can understand where to locate statistical information in tables and simple graphics (e.g., bar-charts or tables). I can use simple visual support elements to communicate content effectively.",
+        "I can extract information from specialised visual support elements. With support from a knowledgeable other, I can understand the statistical information presented in visual form (e.g., scatterplots, box charts). I can use specialised visual support elements with appropriate support from knowledgeable others to communicate content effectively.",
+        "I have no difficulty extracting information that is presented visually in research communications. I can fully understand the statistical information presented in visual form (e.g., scatterplots, box charts). I can use a range of visual representation options to communicate content effectively."
+       ]
+      }
+     ]
+    },
+    {
+     "code": "A2",
+     "name": "Schematic knowledge",
+     "items": [
+      {
+       "code": "A2.1",
+       "name": "Applied linguistics",
+       "levels": [
+        "I have a basic familiarity with common terms used to describe language and language learning (e.g., grammar, vocabulary, fluency), and I can use them, with support, to talk about my teaching. I can recognise the relevance of linguistic knowledge to language education when this is pointed out to me.",
+        "I have sufficient understanding of linguistics (e.g., knowledge of linguistic terminology, understanding of phonology, morphology etc., as well as phenomena such as plurilingualism, SLA) to accurately describe language and language learning. I understand the relevance of linguistic knowledge to language education.",
+        "I am familiar with the state of the art in one or more areas in linguistics (e.g., bilingual language acquisition, phonetics and phonology, atypical language development) and I can relate this knowledge to practice. I can understand, with support from a knowledgeable other, the potential and limitations of existing knowledge, and I can identify knowledge gaps.",
+        "I have a confident grasp of one or more subdisciplines of linguistics. Within this area, I can participate meaningfully in academic and professional dialogue. I understand what knowledge is required to improve practice and how it can be produced."
+       ]
+      },
+      {
+       "code": "A2.2",
+       "name": "Target culture and intercultural understanding",
+       "levels": [
+        "I am familiar with prominent aspects of the culture(s) associated with the language I teach (e.g., festivals, food, well-known works of literature and art), and I can draw on this knowledge in my teaching with support from materials or knowledgeable others. I can recognise the relevance of cultural knowledge to language education when this is pointed out to me.",
+        "I am familiar with the mainstream culture(s) associated with the language I teach, including broad-strokes descriptions as daily life, literature and art, media etc. I understand the relevance of cultural knowledge to language education.",
+        "I have a nuanced understanding of the culture(s) associated with the language I teach, including the dynamics of the society and the role of less visible social groups. I can understand, with support from a knowledgeable other, the potential and limitations of existing knowledge, and I can identify knowledge gaps.",
+        "I have a confident understanding of the culture(s) associated with the language I teach, as well as topics associated with intercultural communication. I understand what knowledge is required to improve practice and how it can be produced."
+       ]
+      },
+      {
+       "code": "A2.3",
+       "name": "Language education pedagogy",
+       "levels": [
+        "I have a basic familiarity with key concepts of language teaching methodology (e.g., lesson stages, common activity types, familiar assessment formats), and I can use them, with support, to describe my practice. I can recognise the relevance of pedagogical knowledge to language education when this is pointed out to me.",
+        "I have sufficient understanding of education theory, both general and specific to language teaching (e.g., learning theories, assessment) to accurately describe practice. I understand the relevance of pedagogical knowledge to language education.",
+        "I am familiar with the state of the art in one or more areas of general education or language education theory, and I can relate this knowledge to practice. I can understand, with support from a knowledgeable other, the potential and limitations of existing knowledge, and I can identify knowledge gaps.",
+        "I have a confident grasp of one or more subdisciplines of general education or language education theory. I can participate meaningfully in academic and professional dialogue. I understand what knowledge is required to improve practice and how it can be produced."
+       ]
+      },
+      {
+       "code": "A2.4",
+       "name": "Language education psychology",
+       "levels": [
+        "I am aware that psychological factors (e.g., motivation, anxiety) shape how learners experience language learning, and I can provide examples from my own classroom when prompted. I can recognise the relevance of language learning psychology to language education when this is pointed out to me.",
+        "I have sufficient understanding of language education psychology (e.g., motivation, identity) to describe how learners experience learning. I understand the relevance of language learning psychology to language education.",
+        "I am familiar with the state of the art in one or more areas of language education psychology, and I can relate this knowledge to practice. I understand, with support from a knowledgeable other, the potential and limitations of existing knowledge, and can identify knowledge gaps.",
+        "I have a confident grasp of one or more subdisciplines of language education psychology. I can participate meaningfully in academic and professional dialogue. I understand what knowledge is required to improve practice and how it can be produced."
+       ]
+      }
+     ]
+    },
+    {
+     "code": "A3",
+     "name": "Knowledge practices",
+     "items": [
+      {
+       "code": "A3.1",
+       "name": "Digital literacy",
+       "levels": [
+        "I can use everyday ICT tools (e.g., word processors, web browsers) for routine tasks. Following step-by-step instructions, I can use ICT to retrieve specific information and produce simple outputs (e.g., a simple handout or a few slides).",
+        "I can use ICT to retrieve specific information following instructions. I can produce outputs (e.g. presentations, research reports) according to a prescribed format or template.",
+        "I can use ICT to retrieve information I need. I can produce outputs (e.g. presentations, research reports) to communicate information in a variety of ways according to instructions.",
+        "I can use ICT to search for potentially useful information. I can flexibly produce outputs (e.g. presentations, research reports) in original ways."
+       ]
+      },
+      {
+       "code": "A3.2",
+       "name": "AI-associated skills",
+       "levels": [
+        "I can use AI-powered tools to carry out simple, clearly defined tasks (e.g., asking a question, translating a phrase, summarising a short text), after being shown how. I am aware that AI output may contain errors, and I can check ouput with a knowledgeable other.",
+        "I can use AI-powered tools to facilitate various aspects of research engagement, such as search for information, translate texts, summarise documents, curate reference lists etc.",
+        "I can use AI-powered tools in an effective, appropriate and ethical way to facilitate my research engagement. I am aware of the potential and limitations of AI technology, and can critically appraise the output of AI applications.",
+        "I can use multiple AI tools in creative, flexible, and effective combinations to facilitate my research engagement."
+       ]
+      },
+      {
+       "code": "A3.3",
+       "name": "Learning practices",
+       "levels": [
+        "I can work through learning resources (e.g., books, online resources) that have been assigned to me, with guidance and regular check-ins from a knowledgeable other.",
+        "I can use learning resources (e.g., books, online resources) that have been assigned to me in order to further my professional growth.",
+        "I can use suggested learning resources in order to develop my skills and knowledge based on my strengths, interests and needs.",
+        "I can locate appropriate learning resources to develop my skills and knowledge based on my strengths, interests and needs."
+       ]
+      },
+      {
+       "code": "A3.4",
+       "name": "Information management",
+       "levels": [
+        "I can keep the materials I need in simple paper or digital collections (e.g., folders) that a knowledgeable other has helped me set up, so that I can find them again. I can use the basic functions of everyday tools (e.g., saving, naming and searching for files).",
+        "I can store information in paper or digital formats, according to instructions, so as to facilitate efficient retrieval. I am familiar with the basic functions of supportive or relevant digital tools.",
+        "I can confidently experiment with a variety of suggested information management strategies in order to store and retrieve the information I need. I am proficient in the use of my preferred digital tools for knowledge management.",
+        "I can use well-developed and flexible information management strategies that allow me to efficiently store and retrieve the information I need. I can use meta-data to help share the data when appropriate. I am proficient in my preferred digital tools and comfortable using alternatives."
+       ]
+      },
+      {
+       "code": "A3.5",
+       "name": "Knowledge attribution",
+       "levels": [
+        "I understand that the work of others should be credited. With reminders and models, I can record where information came from (e.g., by noting the author, title and source of the texts I use).",
+        "I can understand the importance of respecting intellectual property. I can follow specific instructions to properly credit the work of others in my notes and output. I can understand how to correctly credit my intellectual property, and what are appropriate options for sharing content.",
+        "I can understand citation and fair use conventions in language education research. I can independently apply the most common ones to properly credit the work of others in my notes and output. I can understand how to correctly credit and share my intellectual property using a variety of licenses as appropriate.",
+        "I am fully proficient in citation and fair use conventions in language education research. I consistently apply them to properly credit the work of others in my notes and output. I can apply meta-data to my work. I can make informed decisions about how, when and why to share my intellectual property."
+       ]
+      }
+     ]
+    },
+    {
+     "code": "A4",
+     "name": "Knowledge autonomy",
+     "items": [
+      {
+       "code": "A4.1",
+       "name": "Problem setting",
+       "levels": [
+        "I can talk about my teaching practice in response to questions that people ask me, drawing on my experience. In conversation with a knowledgeable other, I can identify aspects of my practice that puzzle or interest me.",
+        "I can use appropriate empirical methods to respond to questions that people ask about my teaching practice.",
+        "I can generate potential questions about my teaching practice and refine them based on instructions and support from knowledgeable others.",
+        "I can generate researchable questions prompted by my teaching practice."
+       ]
+      },
+      {
+       "code": "A4.2",
+       "name": "Self-directed growth",
+       "levels": [
+        "I can take part in professional development activities that are organised by others, and I can say, when prompted, what I found useful. I can act on concrete suggestions for growth that a knowledgeable other makes.",
+        "I can follow prescribed learning paths in order to develop professionally. I can use feedback from a knowledgeable other to develop in the areas they suggest.",
+        "I can select the most appropriate learning resources from a range of options in order to professionally develop. I can use feedback from a knowledgeable other to identify my strengths and opportunities for improvement.",
+        "I can design a professional development pathway using appropriate resources in my context. I can monitor my own professional growth."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "B",
+   "name": "Using published professional knowledge",
+   "subsections": [
+    {
+     "code": "B1",
+     "name": "Locating appropriate sources of information",
+     "items": [
+      {
+       "code": "B1.1",
+       "name": "Searching for information",
+       "levels": [
+        "I can access sources that are given to me directly (e.g., a link, a photocopy or a reading list prepared by a knowledgeable other). Following step-by-step instructions, I can carry out a simple keyword search.",
+        "I can implement a search strategy with a pre-defined scope and reading focus. I can locate relevant print and digital sources that have been suggested to me by a knowledgeable other.",
+        "I can create a search strategy (e.g., define the scope of a search and reading foci), if necessary in collaboration with peers or with assistance from a knowledgeable other. I can implement this plan by locating relevant print and digital sources by following up on suggested reading or by using simple keyword searches.",
+        "I can create a search strategy based on my research and teaching interests. I am sensitive to issues of inclusiveness in defining my search strategy. I can flexibly implement this plan by efficiently locating relevant print and digital sources, using advanced search methods and tools if needed."
+       ]
+      },
+      {
+       "code": "B1.2",
+       "name": "Filtering information",
+       "levels": [
+        "I can make a first judgement about whether a source looks relevant to my needs (e.g., by looking at the title and topic), with the help of guiding questions from a knowledgeable other.",
+        "I can make an initial assessment of the credibility and relevance of sources, based on pre-defined criteria.",
+        "I can make an initial assessment of the credibility and relevance of sources by creating a list of criteria in collaboration with peers and/or knowledgeable others.",
+        "I can make an initial assessment of the credibility and relevance of sources by creating a list of criteria suited to my research interests."
+       ]
+      },
+      {
+       "code": "B1.3",
+       "name": "Accessing information",
+       "levels": [
+        "I can open and read materials that are freely available online or that have been provided to me directly.",
+        "I can access information that is readily available (e.g., in the public domain or through my institution's subscriptions).",
+        "I can access information using a growing number of alternative approaches (e.g., by accessing online repositories).",
+        "I am proficient in accessing information, including grey literature and information that is out of print or behind a paywall, using multiple approaches."
+       ]
+      }
+     ]
+    },
+    {
+     "code": "B2",
+     "name": "Extracting information",
+     "items": [
+      {
+       "code": "B2.1",
+       "name": "General comprehension skills",
+       "levels": [
+        "I can understand the general message of short, practice-oriented texts (e.g., lay summaries, sections of introductory textbooks) on familiar topics. I can discuss the text with a knowledgeable other or with peers to check and consolidate my understanding.",
+        "I can use the abstract, keywords and structure of texts to predict content (e.g., aims and main findings of a study). I can read the text in a linear or iterative way to subsequently confirm my predictions. I can understand the secondary literature (e.g., introductory textbooks), and have growing confidence in my ability to engage with primary research.",
+        "I can strategically read primary and secondary literature by focusing on specific content areas (e.g., methods, results), in order to achieve a specific learning goal (e.g., learn about a new teaching technique, familiarise myself with recent literature). I understand the main points, as well as implications and limitations of the text.",
+        "I can strategically and flexibly consult primary and secondary literature to inform my research and teaching. I can use a variety of reading strategies to support the global and detailed comprehension of the text, by flexibly adjusting to genre conventions. I understand how my reading is influenced by the authors' and my positionality."
+       ]
+      },
+      {
+       "code": "B2.2",
+       "name": "Detailed comprehension",
+       "levels": [
+        "I can find specific pieces of information in a short text when I am told where to look or when I am given guiding questions. I can ask a knowledgeable other for help with challenging words or passages.",
+        "I can locate relevant information in a text, including information that is displayed in non-textual form (e.g., diagrams, figures), in order to answer specific questions. I can use appropriate resources (e.g., glossaries) to assist me in the comprehension of more challenging content.",
+        "I can identify the areas in a text that are most relevant to my teaching and research needs, and use these to extract specific information that I need. I have few, if any, difficulties comprehending the text, and can use appropriate resources to assist me in comprehension.",
+        "I can focus my reading on the areas of the text that are most relevant to my teaching and research needs, and use these to extract specific information, including information that has to be inferred."
+       ]
+      },
+      {
+       "code": "B2.3",
+       "name": "Note-taking",
+       "levels": [
+        "I can highlight or copy key sentences from a text and record them, together with their source, following a model or template provided by a knowledgeable other.",
+        "I can record the information extracted from a source into simple, linear notes, summaries or in prescribed formats. I can paraphrase to avoid plagiarism.",
+        "I can record the information I need, using a variety of ways, by flexibly selecting the one most suited to my current needs. I use a range of strategies to retrieve and appropriately cite information.",
+        "I can make notes that summarise the text, highlight important parts, and document my reflexive thinking as I read."
+       ]
+      }
+     ]
+    },
+    {
+     "code": "B3",
+     "name": "Evaluating information",
+     "items": [
+      {
+       "code": "B3.1",
+       "name": "Understanding authority",
+       "levels": [
+        "I am aware that sources differ in reliability. With support from a knowledgeable other, I can tell apart texts written for professional or educational purposes from casual or opinion-based content.",
+        "I am familiar with the typical features of academic and professional communication, and can identify them in oral and written texts. I can distinguish between such communications and uninformed or pseudoscientific writing.",
+        "I can make an informed decision about the authority of academic and professional readings using criteria such as the reputation of the journal or publisher where the text appears. With appropriate support, I can identify possible indicators associated with predatory or low-tier publications.",
+        "I can make informed decisions about the authority of the texts I read by considering a range of factors, drawing on my familiarity with the field. I can confidently distinguish between publications of different standards, by critically synthesising a range of criteria. I understand the limitations of single criteria (e.g., impact scores) as proxies of authority."
+       ]
+      },
+      {
+       "code": "B3.2",
+       "name": "Evaluating trustworthiness",
+       "levels": [
+        "I can respond to guiding questions from a knowledgeable other about whether the information in a text seems believable (e.g., whether the text explains how its conclusions were reached).",
+        "I can evaluate whether the information in a text is trustworthy (e.g., valid, reliable, etc.) using a list of pre-defined criteria. I can use the statement of limitations, if present, to guide my appraisal.",
+        "I understand how research design factors might impact the quality of a study. With support from a knowledgeable other, I can make informed decisions regarding the trustworthiness of texts. I can infer limitations of the study, even if they are not explicitly stated in the text.",
+        "I can make confident and informed decisions about the trustworthiness of the texts I read, by critically synthesising a range of criteria. I can critically discuss the limitations of a study, including issues of bias, even if these are not mentioned."
+       ]
+      },
+      {
+       "code": "B3.3",
+       "name": "Evaluating local relevance",
+       "levels": [
+        "I can say whether the setting described in a text seems similar to or different from my own teaching context, using prompts such as the age of the learners, the type of school, or the language taught.",
+        "I can make an impressionistic assessment about whether the findings of the study can be generalised to my local teaching context, and articulate a rationale based on specific criteria.",
+        "With appropriate guidance and contextualisation, I can situate a text in the social and historic setting in which it was produced and relate its context to my own practice.",
+        "I can situate a text in the context and ideological space where it was produced, by using inference and interpretation as needed. I can make informed decisions about its relevance to my practice."
+       ]
+      },
+      {
+       "code": "B3.4",
+       "name": "Evaluating potential impact",
+       "levels": [
+        "I can identify teaching suggestions that are explicitly stated in a practice-oriented text, and I can discuss with a knowledgeable other whether I could use them in my classroom.",
+        "I can make a general evaluation about how the content of a text can have an impact on teaching practice, especially in the case of professional and practice-oriented publication. If the text contains a clearly defined statement of implications, I can assess their practical value.",
+        "I can derive specific teaching implications from a text, especially in the case of professional and practice-based publications, even if these are not explicitly stated. With appropriate support, I can discuss the teaching implications of publications that do not directly focus on language teaching and learning.",
+        "I can actively engage with a text, including publications that do not directly focus on teaching, in order to generate implications for teaching. I can derive potential implications for a range of teaching situations, including outside mainstream language education."
+       ]
+      }
+     ]
+    },
+    {
+     "code": "B4",
+     "name": "Synthesising information",
+     "items": [
+      {
+       "code": "B4.1",
+       "name": "Scope",
+       "levels": [
+        "I can bring together the main points of a small number of short texts (e.g., two or three lay summaries) that have been selected for me, with guidance from a knowledgeable other.",
+        "I can synthesize trending and / or fundamental information about aspects of language teaching and learning, using a relatively small number of suggested papers.",
+        "I can comprehensively synthesize information about a focused topic in language teaching and learning by surveying the field according to instructions.",
+        "I can produce a detailed synthesis of information about a focused topic in language teaching and learning, as needed for my research and/or teaching needs."
+       ]
+      },
+      {
+       "code": "B4.2",
+       "name": "Organisation",
+       "levels": [
+        "I can organise the information I collect using a simple template (e.g., a table with predefined headings) provided by a knowledgeable other.",
+        "I can use notes and summaries to present information using relatively simple organisational patterns, such as comparison and contrast or chronological order, according to instructions. I can use simple signposting to facilitate reading of synthetic texts.",
+        "I can use sophisticated notetaking techniques, such as information matrices, to synthesise information from multiple sources and present it in ways that suit my research and teaching needs. With appropriate scaffolding, I can produce texts such as annotated bibliographies, literature reviews or memos.",
+        "I can flexibly use a variety of notetaking techniques to structure a synthetic text, such as an annotated bibliography, a literature review or a memo, for the purposes of my research and teaching needs. I can produce a fine-grained synthesis of information."
+       ]
+      },
+      {
+       "code": "B4.3",
+       "name": "Criticality",
+       "levels": [
+        "I can notice, when prompted, whether the sources I read agree or disagree with each other, and I can record this observation.",
+        "I can recognise critical issues in information I synthesise. I can use guidance, such as scaffolding questions, to insert critical commentary in a synthesis.",
+        "I can apply critical skills in synthesizing information, in order to compare and contrast sources, evaluate their relative merits and limitations, and point out knowledge gaps.",
+        "I can apply highly refined critical skills in order to create original syntheses of information. In producing a synthesis, I can take into account both the content of the text that is synthesised and issues of positionality and reflexivity. I can use the synthesis to identify possible knowledge gaps, including ones that are not immediately apparent."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "C",
+   "name": "Theorising for practice",
+   "subsections": [
+    {
+     "code": "C1",
+     "name": "Theoretical positioning",
+     "items": [
+      {
+       "code": "C1.1",
+       "name": "Conceptual grounding",
+       "levels": [
+        "I can make connections between what I read, discover or experience and familiar ideas about teaching, when these connections are pointed out or explained to me by a knowledgeable other.",
+        "I can make connections between what I read, discover or experience and other theoretical accounts of language and learning. With guidance from others, I can locate relevant scholarship in linguistics, language pedagogy and language learning psychology that is relevant to what I read or investigate.",
+        "I have a solid understanding of the interconnections between what I read, discover, or experience and other relevant existing scholarship, and I am increasingly able to see interconnections among multiple areas of knowledge. With appropriate scaffolding, I can develop theoretical hypotheses about my teaching practice that draw on specific theoretical accounts.",
+        "I have a deep understanding of how competing theories of language, language learning and language learning psychology can describe aspects of my practice. I have a growing understanding of how meta-theoretical accounts can provide coherence to my theoretical meaning-making. I can develop theoretical hypotheses about my teaching practice that cut across disciplinary boundaries."
+       ]
+      },
+      {
+       "code": "C1.2",
+       "name": "Historical grounding",
+       "levels": [
+        "I am aware that ideas about language teaching change over time. With support from a knowledgeable other, I can recognise whether a text reflects older or more recent thinking.",
+        "I can connect what I read, discover, or experience to the historical particularities of its time of production.",
+        "I can place what I read, discover, or experience in longer historical traditions. With appropriate support from others, I can meaningfully reflect on the historically contingent ways in which knowledge was produced.",
+        "I can connect what I read, discover, or experience to historically contingent processes of knowledge production. I can reflect reflexively about how these operate in my attempts at meaning-making."
+       ]
+      },
+      {
+       "code": "C1.3",
+       "name": "Experiential grounding",
+       "levels": [
+        "I can share examples from my own classroom experience that relate to a topic under discussion, when prompted. I can recognise, with support, when new information matches or contradicts my experience.",
+        "I can make connections between what I read, discover, or experience in my language teaching practice. I can draw examples from my experience to better understand the new information.",
+        "I can use my language teaching experience as a criterion for evaluating the relevance and utility of what I read and discover. With appropriate support, I can use my experiential knowledge as a prompt for further reading or research.",
+        "I can use my language teaching experience as driver for setting a research agenda that aims to make my teaching practice more effective."
+       ]
+      },
+      {
+       "code": "C1.4",
+       "name": "Empirical grounding",
+       "levels": [
+        "With support from a knowledgeable other, I can recognise when a claim about teaching is based on research evidence. I can use sources that are provided to me to explain why I teach the way I do.",
+        "I can relate new information that I read, discover, or experience with previous research. I can use information from suggested research articles in order to articulate the rationale underpinning my practice.",
+        "I can seek out new information, either through scaffolded literature searches or supervised empirical methods, as a means for articulating the rationale underpinning my practice.",
+        "I can actively construct a research engagement agenda in order to test the empirical grounding of the rationale underpinning my practice."
+       ]
+      }
+     ]
+    },
+    {
+     "code": "C2",
+     "name": "Contextual sensitivity",
+     "items": [
+      {
+       "code": "C2.1",
+       "name": "Sociocultural influences",
+       "levels": [
+        "I can recognise examples of how prevailing beliefs and social expectations shape teaching in my context, when these are pointed out to me.",
+        "I can provide concrete examples of how prevailing beliefs, social practices, and ideological frames may shape teaching and research choices.",
+        "With appropriate guidance, I can describe how prevailing beliefs, social practices and ideological frames may influence teaching and learning choices. I can conduct guided reading or supervised research to better understand or challenge such processes.",
+        "I understand the socially situated character of knowledge construction in teaching and in research. I can take this knowledge into account when engaging with / in research. I can conduct research to question or challenge such influences, in order to promote learning."
+       ]
+      },
+      {
+       "code": "C2.2",
+       "name": "Policies and practices",
+       "levels": [
+        "I can describe the rules and routines that shape my everyday teaching. In discussion with a knowledgeable other, I can begin to consider how they influence what is possible in my classroom.",
+        "I can provide concrete examples of how normative structures, such as rules and routinised practices, may shape teaching and research choices.",
+        "With appropriate guidance, I can describe how normative structures, such as rules and routinised practices, emerge and what their recursive effect on language teaching is. I can conduct guided reading or supervised research to better understand, or challenge normativity.",
+        "I understand the emergent character of policies and practices in language teaching and language teaching research. I can take this knowledge into account when engaging with / in research to identify constraints and opportunities for knowledge production. I am aware of the recursive effects that research engagement might have on practice."
+       ]
+      },
+      {
+       "code": "C2.3",
+       "name": "Group dynamics",
+       "levels": [
+        "I can describe the relationships and group dynamics in my classroom and workplace, and I can provide examples of how they influence learning, when prompted.",
+        "I can provide concrete examples of how phenomena in language learning and knowledge production in research may connect to interpersonal or group dynamics.",
+        "With appropriate guidance, I can describe how group dynamics can impact language learning and knowledge production in research. I can conduct guided reading or supervised research to better understand how such phenomena are locally produced.",
+        "I understand the local character of phenomena in language learning and knowledge production in research. I can take this knowledge into account when engaging with / in research focusing on locally relevant knowledge production."
+       ]
+      }
+     ]
+    },
+    {
+     "code": "C3",
+     "name": "Reflexive awareness",
+     "items": [
+      {
+       "code": "C3.1",
+       "name": "Reflexive influences on teaching",
+       "levels": [
+        "In guided reflection (e.g., with a mentor, or using focused questions), I can recall experiences, people and beliefs that have shaped the way I teach.",
+        "I have an intuitive understanding of how my teaching practice is shaped by my own background, ideological positioning, psychology, and experience. I am able to provide examples of this influence in response to focused questions.",
+        "With appropriate prompting, I can discuss the reflexive processes that shape my teaching practices, and account for the effects of my background, ideological positioning, psychology, and experience.",
+        "I have awareness of the aspects of my background, ideological positioning, psychology, and experience. I critically interrogate my practice to understand the ways in which it is shaped by such factors."
+       ]
+      },
+      {
+       "code": "C3.2",
+       "name": "Reflexive influences on research",
+       "levels": [
+        "In guided reflection, I can talk about my feelings, beliefs and expectations about research, and about the experiences that have shaped them.",
+        "I have a pre-theoretical understanding of how my research priorities and practices are shaped by my own background, ideological positioning, psychology, and experience. I am able to provide examples of this influence in response to focused questions.",
+        "With appropriate prompting, I can discuss the reflexive processes that shape my research priorities and practices, and account for ways in which my findings may have been influenced by my background, ideological positioning, psychology, and experience.",
+        "I have awareness of the aspects of my background, ideological positioning, psychology, and experience. I critically interrogate my research agenda to understand the ways in which it is shaped by such factors."
+       ]
+      }
+     ]
+    },
+    {
+     "code": "C4",
+     "name": "Practicality",
+     "items": [
+      {
+       "code": "C4.1",
+       "name": "Implications for teaching",
+       "levels": [
+        "I can try out ready-made teaching suggestions (e.g., a published activity or lesson plan) as they are presented, with support from a knowledgeable other in fitting them to my class.",
+        "I can copy or directly apply teaching suggestions described in the professional and academic literature that I read. I can transfer insights from the literature to similar situations in my teaching practice.",
+        "I can selectively and adaptively apply teaching suggestions described in the professional and academic literature that I read. I can transfer insights from the literature to my teaching practice with appropriate contextually sensitive modifications.",
+        "I can produce original teaching experiences drawing on inspiration from the professional and academic literature I read. I can use insights from the literature to inform my teaching practice without constraining my creativity or agency."
+       ]
+      },
+      {
+       "code": "C4.2",
+       "name": "Implications for research",
+       "levels": [
+        "I can take part in research activities that have been designed by others (e.g., trying out a data collection task in my classroom), following clear instructions.",
+        "I can replicate research ideas described in research articles that I read, provided a detailed description of the methods is provided. I can follow up on directly stated suggestions for further research, with appropriate guidance.",
+        "I can use research articles as examples for developing empirical methods, making appropriate modifications to suit my research strengths, needs and interests. I can identify limitations and knowledge gaps where additional research is useful.",
+        "I can produce original research work drawing on inspiration from published scholarship. I can use insights from the literature to inform my research without constraining my creativity or agency. I can develop or adapt unique empirical methods as particular research questions warrant."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "D",
+   "name": "Producing knowledge",
+   "subsections": [
+    {
+     "code": "D1",
+     "name": "Research design",
+     "items": [
+      {
+       "code": "D1.1",
+       "name": "Setting research questions",
+       "levels": [
+        "I can describe, in everyday language, aspects of my teaching that puzzle or interest me. In conversation with a knowledgeable other, I can recognise which of these could be explored through research.",
+        "I can formulate research questions based on my research strengths, needs and interests, with substantial guidance from a knowledgeable other.",
+        "I can co-create research questions in collaboration with knowledgeable others, based on my strengths, needs, and interests and structure my research around them. I can adjust the questions to improve their focus or respond to emergent themes in the data.",
+        "I can create researchable questions based on my language teaching experience. I can continue to refine the questions in response to dialogic interaction with my data."
+       ]
+      },
+      {
+       "code": "D1.2",
+       "name": "Research design",
+       "levels": [
+        "I can carry out clearly delimited steps of a research plan that has been designed by someone else, under close supervision.",
+        "I can implement a simple research protocol by following detailed instructions, or by replicating the research design of a study I have read.",
+        "I can co-create a research protocol with knowledgeable others drawing on examples from published research or on advice in the research methodology literature. I can make limited adjustments to the plan in response to challenges or opportunities arising during data generation.",
+        "I can create effective research protocols by considering my strengths, needs and interests, as well as institutional policy on research. I can flexibly adjust my plan without losing focus, to respond to challenges and opportunities arising during data generation."
+       ]
+      },
+      {
+       "code": "D1.3",
+       "name": "Use of resources",
+       "levels": [
+        "I can use everyday resources (e.g., time, familiar materials and tools) for research tasks, when these have been arranged for me. I can ask for help when I need resources or support that are not available to me.",
+        "I can locate and use resources (e.g., time, library access, software) that are available to me in order to implement my research protocol. I can seek guidance for using resources (e.g., software) with which I am not familiar or confident.",
+        "I can co-create a research protocol that makes efficient use of available resources (e.g., time, library access, software). I can follow the procedures for requesting necessary resources that are not immediately available. I can train myself in the use of resources (e.g., software) with which I am not familiar or confident.",
+        "I can create a research protocol that makes efficient and creative use of available resources (e.g., time, library access, software). I can proactively request resources that will be needed for my research. I seek out opportunities to proactively familiarise myself with new resources (e.g., software)."
+       ]
+      }
+     ]
+    },
+    {
+     "code": "D2",
+     "name": "Data generation",
+     "items": [
+      {
+       "code": "D2.1",
+       "name": "Sampling",
+       "levels": [
+        "I can invite participants (e.g., the students in my own classes) to take part in a study, following a procedure that a knowledgeable other has prepared with me.",
+        "I can follow instructions to create a sample of participants with the size and characteristics needed for my research.",
+        "I can co-create criteria of inclusion and exclusion for the creation of a sample with the characteristics needed for my research with appropriate support. I can make an informed decision about the sample size that is appropriate to my research. I can contact potential research participants and elicit their participation.",
+        "I can make informed decisions about the appropriate sample size and inclusion or exclusion criteria that are appropriate for my research. I can recruit participants in a sensitive and ethical way."
+       ]
+      },
+      {
+       "code": "D2.2",
+       "name": "Qualitative data generation",
+       "levels": [
+        "I can use very simple techniques for generating qualitative information (e.g., keeping a teaching journal, asking a short list of questions given to me), following instructions and under supervision. I can use everyday recording equipment (e.g., a phone) with support.",
+        "I can use data generation instruments, such as observation protocols or interview guides, that are provided to me or that I replicated from existing research. I am familiar with the use of recording equipment.",
+        "I can co-create, with appropriate support, data generation instruments, such as observation protocols or interview guides, according to the needs of my research, using examples from published studies and advice in the research methods literature. I can use these instruments with some flexibility, depending on contextual considerations. I am competent in the use of recording equipment, and can use it in non-intrusive ways.",
+        "I can design original and effective data generation instruments, such as observation protocols or interview guides, according to the needs of my research. I can personalise these instruments and use them flexibly or improvise to respond to situations that arise during data generation, depending on contextual considerations. I am proficient in the use of recording equipment, and can use it in non-intrusive ways."
+       ]
+      },
+      {
+       "code": "D2.3",
+       "name": "Quantitative data generation",
+       "levels": [
+        "I can administer a ready-made questionnaire following instructions, on paper or using a simple digital tool, with support from a knowledgeable other.",
+        "I can use data generation instruments, such as structured observation protocols or questionnaires that are provided to me or that I replicated from existing research. I am familiar with the use of digitally delivered questionnaires.",
+        "I can co-create, with appropriate support, efficient data generation instruments, such as structured observation protocols or questionnaires, using examples from published studies and advice in the research methods literature. I can use latent variable measurement and negatively worded items with appropriate guidance. I am sensitive to the effects of question wording and question order in shaping responses. I am competent in the use of digitally delivered questionnaires.",
+        "I can design original and effective data generation instruments, such as structured observation protocols or questionnaires, according to the needs of my research. I can proactively avoid challenges in data analysis through appropriate design choices. I am proficient in the use of digitally delivered questionnaires."
+       ]
+      }
+     ]
+    },
+    {
+     "code": "D3",
+     "name": "Data analysis",
+     "items": [
+      {
+       "code": "D3.1",
+       "name": "Qualitative data analysis",
+       "levels": [
+        "I can read through data together with a knowledgeable other and point out things that stand out or recur. I can sort information into categories that are given to me.",
+        "I can observe recurring patterns in the data, and arrange qualitative information into thematic categories according to given methodologies. I can use non-specialised software (e.g., word processors, note-taking applications) to facilitate analysis. I can make simple inferences based on the data patterns I observe.",
+        "I can follow advice in the research methods literature to analyse qualitative data following an established method. I am familiar with the use of computer-assisted qualitative data analysis software, and can use it where appropriate to manage data analysis. With appropriate guidance, I can abstract meaning from the data, infer meaning that is not directly articulated, and make sophisticated or nuanced connections. With appropriate guidance, I can relate the findings to the existing literature and make empirically supported theoretical statements.",
+        "I can use a variety of qualitative methods to analyse the data, and I can flexibly combine different methodological approaches where triangulation is desirable. I am proficient in the use of computer-assisted qualitative data analysis software, and can use it where appropriate to streamline data analysis. I can use reflexivity to highlight researcher influence in the analytical process. I can make original theoretical abstractions from the data, to support, extend or challenge existing language education theory and teaching practices."
+       ]
+      },
+      {
+       "code": "D3.2",
+       "name": "Quantitative data analysis",
+       "levels": [
+        "I can count responses and calculate simple totals and percentages, with support. With help from a knowledgeable other, I can read and talk about the results (e.g., in a simple table or bar chart).",
+        "I can conduct descriptive statistics and univariate analysis according to instructions. I understand the differences between levels of measurement (i.e. categorical, ordinal and scale data) and can use appropriate procedures for each type of data. I can use non-specialised software (e.g., spreadsheets) to facilitate statistical analysis. I can present data in appropriate formats (e.g., tables, bar and pie charts, etc.). I can make simple statements about the findings and their generalisability.",
+        "I can follow advice in the research methods literature to conduct simple inferential statistics and bivariate analyses. I am familiar with a statistical package. With appropriate guidance, I can deal with irregularities in the data set, such as negatively worded items, missing values, etc. I can present data in appropriate ways, including specialised diagrams (e.g., scatterplots and box charts). With appropriate guidance, I can discuss the implications of my findings, their generalisability and limitations.",
+        "I can use a variety of statistical methods to analyse the data, including regression and analysis of variance. I understand the conditions (e.g., normality of distribution, heteroscedasticity) that need to be met for various statistical procedures and can test that these are met. I am proficient in the use of a statistical package. I can use statistical data to support, extend or challenge existing language education theory and teaching practices. I understand how the choices of my statistical tests may shape my findings."
+       ]
+      },
+      {
+       "code": "D3.3",
+       "name": "Synthesising qualitative and quantitative research strands",
+       "levels": [
+        "I can notice, when prompted, whether the numbers and what participants said point in the same direction or if there are salient differences.",
+        "When using mixed-methods research designs, I can compare and contrast findings from the qualitative and quantitative strands.",
+        "I can make broad statements about how the qualitative and quantitative strands of my research inform each other (e.g., to provide nuance or generalisability to each other).",
+        "I can make detailed statements about specific patterns in the data where the comparison of qualitative and quantitative information creates tensions or highlights nuanced observations."
+       ]
+      }
+     ]
+    },
+    {
+     "code": "D4",
+     "name": "Ethics",
+     "items": [
+      {
+       "code": "D4.1",
+       "name": "Informed consent",
+       "levels": [
+        "I understand that participation in research must be voluntary and informed. I can use consent materials that a knowledgeable other has prepared, under close supervision.",
+        "I can follow the guidelines of my institution or professional organisation to ensure that research participants are fully informed about the purposes of my study and are not coerced or misled into participating.",
+        "I can co-create a recruitment strategy and design literature to ensure that research participants are fully informed about the purposes of my study and are not coerced or misled into participating, providing informed consent. I am familiar with the ethics involved in researching people with whom I have a pre-existing relationship, and I can, with appropriate guidance, address them.",
+        "I can autonomously design a recruitment strategy and design literature that guarantees informed consent. I can safeguard against the effects of conducting research on people with whom I have a pre-existing relationship. I can consult the literature or ethics guidelines in my institution or professional association for guidance on issues with which I am not familiar."
+       ]
+      },
+      {
+       "code": "D4.2",
+       "name": "Beneficence and non-malfeasance",
+       "levels": [
+        "I understand that research should not harm those who take part in it. I can follow explicit instructions to protect my safety and the safety of participants, and I can raise any concerns with a supervisor.",
+        "I can follow instructions to ensure that participants are not harmed by research, and work with a supervisor in order to ensure that possible problems or concerns are addressed. I can follow instructions to ensure my safety and the safety of participants.",
+        "I am sensitive to the ways in which my research might impact the lives of participants, and can co-create, with appropriate guidance, appropriate measures to mitigate any inconvenience. When designing research protocols, I can take reasonable precautions to ensure my safety and the safety of participants.",
+        "I am sensitive to the ways in which my research might impact the lives of participants, and can take steps to mitigate any inconvenience or potential harm. I am familiar with guidelines in my institution and professional association regarding the use of incentives and tokens of appreciation."
+       ]
+      },
+      {
+       "code": "D4.3",
+       "name": "Confidentiality and data protection",
+       "levels": [
+        "I am aware that personal data must be protected. I can follow simple, explicit instructions (e.g., storing files where I am told to, using pseudonyms instead of names), and I can ask a supervisor when I am unsure.",
+        "I understand the rationale of data protection laws (e.g., GDPR) and related policies, and their application to school-based research. I can follow the policy of my school or professional institution to protect the participants' anonymity. I can take simple electronic and physical precautions to protect data. I can work with a supervisor or informed others to ensure that national and international data protection law standards are met. I can consult with a supervisor if I have concerns about confidentiality or data protection.",
+        "I have a detailed understanding of data protection laws (e.g., GDPR) and related policies and their application to school-based research. I can co-create an effective data protection protocol to ensure the participants' anonymity, based on applicable institutional rules and national and international legal standards. I am familiar with the conditions in which confidentiality must be breached for legal or ethical grounds (e.g., danger to informants). I am familiar with the data and ethics accountability procedures in my context.",
+        "I have a detailed understanding of data protection laws (e.g., GDPR) and related policies and their application to school-based research, and can make informed decisions about issues that are not explicitly described in the regulatory framework. I can design an effective data protection protocol to ensure the participants' anonymity, based on applicable institutional rules and national and international legal standards. I can proactively design contingency plans for unexpected situations that impact confidentiality and data protection."
+       ]
+      },
+      {
+       "code": "D4.4",
+       "name": "Working with minors and vulnerable populations",
+       "levels": [
+        "I understand that research involving minors or vulnerable populations requires special care and permissions. I can take part in such research only under direct supervision, after the necessary approvals have been arranged by others.",
+        "I can work appropriately with minors or vulnerable populations (including students in classes I teach) with close supervision.",
+        "I can co-create a research plan with informed others that takes into account the ethics of working with minors or vulnerable populations and submit it for approval to the authority that oversees research in my context. I can work with a supervisor or informed others to ensure compliance with the research plan.",
+        "I can use my extensive knowledge of procedures for researching minors and vulnerable populations in order to design a research plan that complies with institutional rules and legal standards. I can submit this plan for approval to the authority that oversees research. I can organise appropriate supervision if this is not available."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "E",
+   "name": "Communicating knowledge",
+   "subsections": [
+    {
+     "code": "E1",
+     "name": "Talking about research",
+     "items": [
+      {
+       "code": "E1.1",
+       "name": "Presentations",
+       "levels": [
+        "I can tell colleagues informally about something I have read or tried out in my classroom. Using notes prepared with support from a knowledgeable other, I can share a short account of my experience with a small, familiar group.",
+        "I can deliver a prepared talk about my research engagement, in which I summarise the main information that I read or the main findings of my study. I can use language that is appropriate to the audience. I can enhance my presentation with simple visual support such as a poster or slides.",
+        "I can deliver a prepared talk about my research engagement, in which I present the information that I read or the main findings of my study. I can use language that balances credibility and audience engagement. I can enhance my presentation with sophisticated visual support.",
+        "I can talk about my research with little preparation. I can relate the information I am presenting to the specific needs of the audience I am addressing. I present my work in a unique, personal voice."
+       ]
+      },
+      {
+       "code": "E1.2",
+       "name": "Asking questions and providing feedback",
+       "levels": [
+        "I can indicate when something in a presentation is not clear to me, and I can ask simple questions of clarification in familiar, supportive settings.",
+        "I can ask for clarifications about points in a presentation that are not clear to me.",
+        "I can comment on the strengths of research that has been presented and offer additional perspectives that might not have been considered.",
+        "I can offer constructive feedback in response to research that has been presented. I can point out limitations or even major flaws in tactful ways."
+       ]
+      },
+      {
+       "code": "E1.3",
+       "name": "Responding to questions",
+       "levels": [
+        "I can answer simple, factual questions about my own classroom experience.",
+        "I can provide direct answers to most straightforward questions that are posed in response to a conference presentation.",
+        "I can elaborate on my work in response to questions that are posed in response to a conference presentation.",
+        "I can respond in constructive and respectful ways to all the feedback I receive in response to a conference presentation."
+       ]
+      }
+     ]
+    },
+    {
+     "code": "E2",
+     "name": "Writing about research",
+     "items": [
+      {
+       "code": "E2.1",
+       "name": "Text production",
+       "levels": [
+        "I can produce short, informal texts about my teaching (e.g., a journal entry, a contribution to a staffroom noticeboard or online discussion), using templates or models provided by a knowledgeable other.",
+        "I can produce simple descriptive texts (e.g., posters, blogposts) presenting the information I have read or generated. I can follow the conventions of professional and academic writing, by following appropriate examples and feedback from knowledgeable others. I can ensure that my text is comprehensive, cohesive and coherent.",
+        "I can produce extended texts presenting my research engagement output (e.g., annotated bibliographies, research articles, dissertations) with appropriate feedback. I can follow the conventions of professional and academic writing in order to establish authority. I can transparently report on my work to ensure accountability.",
+        "I can produce extended texts presenting my research engagement output. I can follow the conventions of academic writing with flexibility in order to adjust to the particularities of the outlet and intended audience. I develop a personal authorial voice. I can produce accessible versions of my research in a variety of media, such as lay summaries, infographics and social media communications."
+       ]
+      },
+      {
+       "code": "E2.2",
+       "name": "Selecting publication outlets and submitting work for publication",
+       "levels": [
+        "I can share my writing in venues that have been arranged or suggested for me (e.g., a school newsletter, a course platform).",
+        "I can prepare a manuscript for submission to a journal by following author instructions (e.g., adjusting the word length, formatting the text according to the recommended style etc.)",
+        "I can work with a knowledgeable other to select an appropriate journal for a manuscript, using criteria such as local and thematic relevance, quality, review time, and open access policy. I can distinguish between bona fide and predatory publishers and use this knowledge to inform my publication decisions.",
+        "I can make an informed decision about the appropriate publication outlet for my research output. I can ensure maximum visibility of my work by considering the open access policy of the journal."
+       ]
+      },
+      {
+       "code": "E2.3",
+       "name": "Dealing with peer review",
+       "levels": [
+        "I can receive feedback on my writing from a mentor or tutor, and I can make specific corrections that are pointed out to me.",
+        "I can make surface-level edits to my text in response to comments from an expert, such as a reviewer or editor.",
+        "With appropriate help from a knowledgeable other, I can engage with constructive feedback from a reviewer, including addressing major changes where needed.",
+        "I can constructively engage with reviewer and editor comments, including negative feedback. I can synthesise advice from multiple reviewers. I can state and justify my objections to feedback with which I do not agree."
+       ]
+      }
+     ]
+    },
+    {
+     "code": "E3",
+     "name": "Participation in Communities of Practice",
+     "items": [
+      {
+       "code": "E3.1",
+       "name": "Networking",
+       "levels": [
+        "I can take part in communities and events to which I am invited (e.g., staff meetings, an online teachers' group), mainly by following the discussions and contributing when prompted.",
+        "I can participate in communities of practice, conferences, networking events, and continuing professional development opportunities that are suggested to me.",
+        "I can actively seek opportunities to network, by finding out about relevant communities of practice, conferences, networking events, and continuing professional development opportunities.",
+        "I can proactively construct networking spaces, such as communities of practice, conferences and networking events, and continuing professional development opportunities."
+       ]
+      },
+      {
+       "code": "E3.2",
+       "name": "Knowledge building",
+       "levels": [
+        "I can ask trusted colleagues or mentors for advice on where to find information or support related to my teaching.",
+        "I can use my contacts in order to seek advice on relevant reading or about various aspects of conducting research.",
+        "I can exchange ideas with contacts in order to refine my research skills, or discuss the relevance, implications and limitations of research findings.",
+        "I can provide constructive advice and mentorship to help junior teacher-researchers become more effective using and producing research."
+       ]
+      }
+     ]
+    },
+    {
+     "code": "E4",
+     "name": "Outreach and activism",
+     "items": [
+      {
+       "code": "E4.1",
+       "name": "Mentoring",
+       "levels": [
+        "I can accept help that more experienced colleagues offer me, and I can follow simple, concrete advice about my teaching and professional growth.",
+        "I can follow advice by more experienced teacher-researchers. I can ask for clarifications where needed. I can seek out opportunities to develop my research literacy.",
+        "I can seek advice on relatively challenging issues involving sophisticated research methods, or challenging (ethical) situations. I can balance the need for autonomous and scaffolded growth by setting boundaries as needed.",
+        "I can support the research literacy development of teachers as a mentor. I can proactively create learning opportunities and collaborations for the teacher-researchers that I mentor. I can respect the autonomy of the teacher-researchers that I mentor."
+       ]
+      },
+      {
+       "code": "E4.2",
+       "name": "Peer interaction",
+       "levels": [
+        "I can share my classroom experiences with colleagues in informal conversation. When research findings come up in such conversations, I can listen and relate them to my own classroom, with support.",
+        "I can exchange ideas with other language teachers about the implications on practice and limitations of research that we are familiar with.",
+        "I can create reading groups and practice-based research groups in my institution and beyond it. I can develop research collaborations with other teachers and with university-based researchers.",
+        "I can actively participate in the research engagement activity in my institution and beyond it. I can lead collaborative research projects with more junior teacher-researchers."
+       ]
+      },
+      {
+       "code": "E4.3",
+       "name": "Engaging with authority",
+       "levels": [
+        "I can describe, when asked, what I do in my classroom and what support I need, to people who have authority in my organisation.",
+        "I can discuss my teacher-researcher needs (e.g. library access, time) with people who have authority in my organisation. I can provide examples of how research engagement can make a positive impact on myteaching.",
+        "I can present a coherent case for developing a research engagement agenda in my institution. I can present convincing arguments about the relevance to language teaching of engaging with and in research.",
+        "I can educate stakeholders in my institution about the importance of research literacy for language educators. I can secure resources for my own and my colleagues' research agenda."
+       ]
+      },
+      {
+       "code": "E4.4",
+       "name": "Public engagement",
+       "levels": [
+        "I can answer everyday questions from members of the public (e.g., students' parents) about my classroom practice, drawing on my experience and, with support, on materials provided to me.",
+        "I can use knowledge derived from the research I read or conduct in order to discuss the linguistic, pedagogical and psychological rationale of my teaching practice, on an ad hoc basis, with members of the public (e.g., students' parents).",
+        "I can organise occasional outreach events in order to inform members of the public in the community I serve about language education and its linguistic, pedagogical and psychological underpinnings.",
+        "I can systematically share knowledge derived from the research I read or conduct, in ways that are accessible to lay audiences (e.g., social media posts, podcasts, articles in school newsletters) in order to educate the general public."
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
