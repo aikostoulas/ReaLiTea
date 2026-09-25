@@ -10,12 +10,32 @@ output is a profile and a self-set development plan.
 All responses stay in the user's browser (`localStorage`); nothing is
 transmitted. Responses can be exported to a file and loaded again later.
 
+The repository also holds the **WP3 self-study modules** (Research Literacy of
+Teachers, Modules 1–5) in [`modules/`](modules/) — see below.
+
 ## Files
 
 | File | Purpose |
 | --- | --- |
 | `index.html` | The complete, self-contained app (React, runtime and Barlow fonts are embedded; no network access needed). |
 | `framework.json` | **Required, not yet in the repo.** The framework's descriptors, loaded by `index.html` at start-up. |
+| `modules/` | The WP3 self-study website (see below). |
+
+## WP3 self-study modules (`modules/`)
+
+Interactive self-study versions of the five RLT WP3 modules, with a home page.
+
+| Path | Purpose |
+| --- | --- |
+| `modules/index.html` | Home page linking to the five modules. |
+| `modules/module1.html` … `module5.html` | One page per module. Each is self-contained apart from `media/`; learners' responses autosave in the browser (`localStorage`) and can be exported to a Word (.docx) file. |
+| `modules/media/` | Module 1 engagement video (H.264, 1280×720) and its poster image. |
+| `modules/source/` | Build sources: `engine/` (shared app, styles, home), `data/` (module content), `img/` (logos) and `tools/` (build and test scripts). |
+
+The pages load Barlow from Google Fonts and the `docx` library from jsDelivr
+(for the Word export), so they need a network connection. They can be opened
+directly or served with GitHub Pages; with Pages enabled on the root folder
+they appear at `…/modules/`.
 
 ## Running it
 
