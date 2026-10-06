@@ -360,9 +360,19 @@ function masthead(opts){
   const brand=$('a',{class:'brand',href:SITE.home||'index.html'},
     $('div',{class:'brand-text'},$('strong',{},'ReaLiTea self-study modules'),$('span',{},opts.brandLine)),
     ASSET.logoWhite?$('img',{src:ASSET.logoWhite,alt:'ReaLiTea – Research Literacy of Teachers logo'}):null);
-  return $('header',{class:'masthead'},$('div',{class:'mast-inner'},
+  const frag=document.createDocumentFragment();
+  frag.append(topnav(opts.current||0), $('header',{class:'masthead'},$('div',{class:'mast-inner'},
     $('div',{class:'mast-top'},$('p',{class:'series'},SITE.series),brand),
-    opts.title, opts.meta?$('p',{class:'mast-meta'},opts.meta):null));
+    opts.title, opts.meta?$('p',{class:'mast-meta'},opts.meta):null)));
+  return frag;
+}
+/* menu at the top of every page: home plus one link per module */
+function topnav(current){
+  const link=(href,label,title,on)=>{ const o={href,title}; if(on) o['aria-current']='page';
+    return $('li',{},$('a',o,label)); };
+  return $('nav',{class:'topnav','aria-label':'Modules'},$('ul',{},
+    link(SITE.home||'index.html','Home','Self-study modules home',!current),
+    SITE.modules.map(m=>link(m.file,`Module ${m.n}`,`Module ${m.n}: ${m.title}`,m.n===current))));
 }
 function audienceBox(items,extra){
   return $('section',{class:'side-box audience','aria-labelledby':'aud-h'},
@@ -385,7 +395,7 @@ function footer(){
         $('p',{},inline(SITE.projectDescription)),
         $('p',{},inline(cite ? `CC-BY-SA The ReaLiTea Project. (2026). This material is licensed under a CC-BY-SA (Attribution 4.0 International) Creative Commons License. Please credit it as follows: ${cite} This license does not apply to materials that are covered by other copyright laws and that are linked herein.`
           : `CC-BY-SA The ReaLiTea Project. (2026). These materials are licensed under a CC-BY-SA (Attribution 4.0 International) Creative Commons License. Each module gives its own recommended citation. This license does not apply to materials that are covered by other copyright laws and that are linked herein.`)),
-        $('details',{},$('summary',{},'Project members'),$('p',{class:'small'},'Listed in alphabetical order.'),$('ul',{class:'plain authors'},SITE.authors.map(a=>$('li',{},a)))))),
+        $('details',{},$('summary',{},'Project Members'),$('p',{class:'small'},'Listed in alphabetical order.'),$('ul',{class:'plain authors'},SITE.members.map(a=>$('li',{},a)))))),
     $('div',{class:'foot-row eu'},
       ASSET.euWhite?$('img',{src:ASSET.euWhite,alt:'Co-funded by the European Union'}):null,
       $('p',{class:'small'},'The ReaLiTea project is co-funded by the European Union. Views and opinions expressed are, however, those of the authors only and do not necessarily reflect those of the European Union or the Erasmus+ National Agency for Higher Education (German Academic Exchange Service). Neither the European Union nor the granting authority can be held responsible for them.'))));
@@ -404,6 +414,7 @@ function build(){
   root.innerHTML='';
 
   root.append(masthead({
+    current:M.number,
     brandLine:`Module ${M.number} of ${SITE.modules.length||5}`,
     title:$('div',{class:'mast-title'},$('span',{class:'mod-num','aria-hidden':'true'},String(M.number)),
       $('div',{},$('p',{class:'mod-label'},`Module ${M.number}, self-study edition`),$('h1',{},M.title))),
