@@ -61,7 +61,13 @@ button,input,textarea,select{font:inherit;color:inherit}
 .side .sub a{padding-left:28px;font-size:.88rem}
 .side .count{margin-left:auto;font-family:var(--font-mono);font-size:.75rem;color:var(--muted);font-variant-numeric:tabular-nums}
 .side .group{font-size:.92rem;padding:10px 10px 2px;color:var(--muted)}
-@media (max-width:860px){.shell{grid-template-columns:minmax(0,1fr)}.side{display:none}}
+.privacy{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px;font-size:.86rem}
+.privacy h2{font-family:var(--font-display);font-size:.98rem;letter-spacing:0;text-transform:none;color:var(--ink);font-weight:600;margin:0 0 6px}
+.privacy p{margin:6px 0 0;color:var(--muted)}
+.privacy a{color:var(--accent)}
+.privacy-side{margin-top:22px}
+.privacy-mobile{display:none;margin-top:30px}
+@media (max-width:860px){.shell{grid-template-columns:minmax(0,1fr)}.side{display:none}.privacy-mobile{display:block}}
 
 /* Page */
 main{min-width:0;max-width:760px}
@@ -427,6 +433,13 @@ function renderBlock(p, b, bi){
   return wrap;
 }
 
+function privacyPanel(cls){
+  return h("section",{class:"privacy "+cls,"aria-label":"Your data stays with you"},
+    h("h2",{},"Your data stays with you"),
+    h("p",{},"Nothing is sent or stored online. Your answers are kept only in this browser on this device."),
+    h("p",{},"Use a code such as Teacher 1, never the participant's real name."),
+    h("p",{},"To keep a copy, move to another device or share with your supervisor, go to ",h("a",{href:"#export"},"Save & export"),"."));
+}
 function renderInstrument(p, main){
   main.append(h("div",{class:"eyebrow"},p.eyebrow), h("h1",{class:"page-title"},titleOf(p)), h("p",{class:"lead"},p.lead));
   p.blocks.forEach((b,bi)=>main.append(renderBlock(p,b,bi)));
@@ -447,12 +460,7 @@ function renderAbout(main){
         step("Same day","Phase 3a · Same day","Record first impressions before listening to the recording.","phase-3a"),
         step("Same day onwards","Part C · Data management","Back up, store and transcribe the recording securely.","part-c"),
         step("Within a week","Phase 3b · With recording","Review your interviewing against the recording, then start coding.","phase-3b"))),
-    h("section",{class:"block"},h("h3",{},"Your data stays with you"),
-      h("div",{class:"prose"},
-        h("p",{},"Nothing you write here is sent or stored online. Your answers are kept only in this browser on this device, so they are still here if you close the page and come back. They are not visible to anyone else, including the person who shared the tool with you."),
-        h("p",{},"Start by typing an interview code at the top of the page, such as Teacher 1. Use a code, never the participant's real name."),
-        h("p",{},"To keep a permanent copy, move to another device, or share your reflections with your supervisor, go to ",
-          h("a",{href:"#export"},"Save & export"),". You can download your answers as a file to reload later, or as a Word document.")))
+    privacyPanel("privacy-mobile")
   );
   function step(when,title,desc,href){ return h("li",{},h("span",{class:"when"},when),h("div",{},h("b",{},h("a",{href:"#"+href},title))," ",desc)); }
 }
@@ -588,6 +596,7 @@ function render(){
 document.getElementById("code").addEventListener("input",e=>{ S.code=e.target.value; persist(); });
 document.getElementById("idate").addEventListener("change",e=>{ S.date=e.target.value; persist(); });
 window.addEventListener("hashchange",()=>{ render(); window.scrollTo(0,0); });
+document.querySelector(".side").append(privacyPanel("privacy-side"));
 render();
 </script>
 </body>
