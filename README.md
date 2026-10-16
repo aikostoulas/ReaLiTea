@@ -20,6 +20,7 @@ Teachers, Modules 1–5) in [`modules/`](modules/) — see below.
 | `index.html` | The complete, self-contained app (React, runtime and Barlow fonts are embedded; no network access needed). |
 | `framework.json` | The framework's descriptors (64 competences × 4 levels) and the 32 Part I reflection questions, taken verbatim from *Developing the Research Literacy of Language Teachers* (v.3). Loaded by `index.html` at start-up. |
 | `modules/` | The WP3 self-study website (see below). |
+| `interview-companion/` | The Reflexive Interview Companion (see below). |
 
 ## WP3 self-study modules (`modules/`)
 
@@ -36,6 +37,25 @@ The pages load Barlow from Google Fonts and the `docx` library from jsDelivr
 (for the Word export), so they need a network connection. They can be opened
 directly or served with GitHub Pages; with Pages enabled on the root folder
 they appear at `…/modules/`.
+
+## Reflexive Interview Companion (`interview-companion/`)
+
+A single-page workbook for novice researchers preparing for, conducting and
+reflecting on a qualitative research interview.
+
+| Page | Content |
+| --- | --- |
+| About | What the tool is, how to use it, and how data is kept. |
+| Part A | Preparation checklist: ethics and consent, logistics, equipment, identification, readiness. |
+| Part B | Reflexive tool: Phase 1 (before), Phase 2 (during: cue card, follow-ups, time-stamped jottings), Phase 3a (same day) and Phase 3b (with the recording, including self-ratings and carry-forward). |
+| Part C | Data management: same-day steps, transcription and first-pass coding. |
+| Save & export | Word (.docx) export, data-file export and re-import, and clearing the record. |
+
+Each record is labelled with an interview code (e.g. *Teacher 1*) and a date.
+Responses stay in the user's browser (`localStorage`); nothing is transmitted.
+The page loads its fonts from Google Fonts and the `docx` library from
+jsDelivr, so it needs a network connection. With Pages enabled on the root
+folder it appears at `…/interview-companion/`.
 
 ## Running it
 
