@@ -65,7 +65,8 @@ button,input,textarea,select{font:inherit;color:inherit}
 .privacy h2{font-family:var(--font-display);font-size:.98rem;letter-spacing:0;text-transform:none;color:var(--ink);font-weight:600;margin:0 0 6px}
 .privacy p{margin:6px 0 0;color:var(--muted)}
 .privacy a{color:var(--accent)}
-.privacy-side{margin-top:22px}
+.side-upload{width:100%;justify-content:center;margin-top:18px}
+.privacy-side{margin-top:14px}
 .privacy-mobile{display:none;margin-top:30px}
 @media (max-width:860px){.shell{grid-template-columns:minmax(0,1fr)}.side{display:none}.privacy-mobile{display:block}}
 
@@ -563,6 +564,16 @@ function buildDocx(){
   return Packer.toBlob(new Document({creator:"Reflexive Interview Companion",title:`Reflexive record ${S.code}`,sections:[{children:kids}]}));
 }
 
+let pendingImport = null;
+const picker = h("input",{type:"file",id:"importfile",accept:".json,application/json",hidden:true,"aria-hidden":"true"});
+document.body.append(picker);
+function pickFile(){ picker.value = ""; picker.click(); }
+picker.addEventListener("change",()=>{
+  const f = picker.files[0]; if (!f) return;
+  const r = new FileReader();
+  r.onload = () => { pendingImport = {text:String(r.result), name:f.name}; if (current().id==="export") render(); else location.hash = "#export"; };
+  r.readAsText(f);
+});
 function renderExport(main){
   const out = h("div",{});
   const noDl = downloadsNS === null || downloadsNS === undefined;
@@ -588,22 +599,23 @@ function renderExport(main){
   main.append(out);
   if (noDl) out.append(h("div",{class:"notice"},"Downloads aren't available in this view. Use Copy as text, or open the tool in claude.ai."));
 
-  const fin = h("input",{type:"file",id:"importfile",accept:".json,application/json"});
   const pending = h("div",{});
-  const ask = (text) => {
+  const ask = (text, name) => {
+    pendingImport = null;
     pending.replaceChildren(h("div",{class:"confirm"},
-      h("p",{style:"margin:0"},"This replaces everything currently in the tool with the uploaded record. Continue?"),
+      h("p",{style:"margin:0"}, name ? `Load "${name}"? ` : "Load the pasted record? ", "This replaces everything currently in the tool."),
       h("div",{class:"row"},
         h("button",{type:"button",class:"btn primary",onclick:()=>{ try{ loadJSON(text); render(); location.hash="#about"; } catch(e){ msg(pending,e.message.startsWith("This")?e.message:"That file couldn't be read. Choose a data file exported from this tool.",true); } }},"Replace and load"),
-        h("button",{type:"button",class:"btn",onclick:()=>{ pending.replaceChildren(); fin.value=""; }},"Cancel"))));
+        h("button",{type:"button",class:"btn",onclick:()=>pending.replaceChildren()},"Cancel"))));
+    setTimeout(()=>pending.scrollIntoView({block:"center",behavior:"smooth"}),60);
   };
-  fin.addEventListener("change",()=>{ const f = fin.files[0]; if (!f) return; const r = new FileReader(); r.onload=()=>ask(String(r.result)); r.readAsText(f); });
   const paste = h("textarea",{id:"pastebox",rows:"5",placeholder:"Paste the exported text here"});
-  main.append(h("section",{class:"block"},h("h3",{},"Load a saved record"),
-    h("p",{class:"guide"},"Upload a data file you exported earlier to continue where you left off."),
-    h("div",{class:"row"},fin),
+  main.append(h("section",{class:"block",id:"load"},h("h3",{},"Load a saved record"),
+    h("p",{class:"guide"},"Upload a data file (.json) you exported earlier to continue where you left off."),
+    h("div",{class:"row"},h("button",{type:"button",class:"btn primary",onclick:pickFile},"Upload saved record")),
     h("details",{},h("summary",{},"Or paste exported text"),paste,h("div",{class:"row"},h("button",{type:"button",class:"btn",onclick:()=>paste.value.trim()&&ask(paste.value)},"Load pasted text"))),
     pending));
+  if (pendingImport) ask(pendingImport.text, pendingImport.name);
 
   const clr = h("div",{});
   main.append(h("section",{class:"block"},h("h3",{},"Start a new interview"),
@@ -633,7 +645,7 @@ function render(){
 document.getElementById("code").addEventListener("input",e=>{ S.code=e.target.value; persist(); });
 document.getElementById("idate").addEventListener("change",e=>{ S.date=e.target.value; persist(); });
 window.addEventListener("hashchange",()=>{ render(); window.scrollTo(0,0); });
-document.querySelector(".side").append(privacyPanel("privacy-side"));
+document.querySelector(".side").append(h("button",{type:"button",class:"btn side-upload",onclick:pickFile},"Upload saved record"), privacyPanel("privacy-side"));
 render();
 </script>
 </body>
