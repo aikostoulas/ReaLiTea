@@ -81,6 +81,21 @@ main{min-width:0;max-width:760px}
 .checks label{display:flex;gap:12px;align-items:flex-start;padding:10px 12px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);cursor:pointer}
 .checks input{width:18px;height:18px;margin-top:2px;accent-color:var(--accent);flex:none}
 .checks input:checked + span{color:var(--muted);text-decoration:line-through;text-decoration-color:var(--line)}
+.block:has(> .acc){margin-top:12px}
+.acc{background:var(--surface);border:1px solid var(--line);border-radius:var(--r)}
+.acc summary{list-style:none;display:flex;align-items:center;gap:14px;padding:14px 16px;cursor:pointer}
+.acc summary::-webkit-details-marker{display:none}
+.acc-text{flex:1;min-width:0;display:grid;gap:2px}
+.acc-title{font-family:var(--font-display);font-weight:600;font-size:1.08rem}
+.acc-intro{color:var(--muted);font-size:.9rem}
+.acc-count{font-family:var(--font-mono);font-size:.78rem;font-variant-numeric:tabular-nums;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:2px 9px;flex:none}
+.acc-count.done{color:var(--ok);border-color:var(--ok)}
+.acc-chev{width:9px;height:9px;border-right:2px solid var(--muted);border-bottom:2px solid var(--muted);transform:rotate(45deg) translateY(-3px);transition:transform .15s;flex:none;margin-right:4px}
+.acc[open] .acc-chev{transform:rotate(-135deg) translate(-2px,-1px)}
+.acc[open] summary{border-bottom:1px solid var(--line)}
+.acc-body{padding:12px 16px 16px}
+.acc-body .checks{margin:0}
+.acc-body .checks label{background:var(--surface-2)}
 .prompt{margin-top:16px}
 .prompt label{display:block;font-weight:600;margin-bottom:6px}
 .prompt .num{font-family:var(--font-mono);color:var(--accent);font-weight:500;margin-right:8px}
@@ -158,29 +173,29 @@ summary{cursor:pointer;color:var(--accent);font-weight:500}
 /* ---------- Instrument content ---------- */
 const PAGES = [
   {id:"about", label:"About this tool", tab:"about"},
-  {id:"part-a", tab:"part-a", letter:"A", label:"Preparation checklist", eyebrow:"Part A · Before the interview day",
+  {id:"part-a", accordion:true, tab:"part-a", letter:"A", label:"Preparation checklist", eyebrow:"Part A · Before the interview day",
    lead:"Work through this list in the days before the interview. Everything here should be ready before you meet the participant.",
    blocks:[
-    {type:"checks", heading:"Ethics and consent", items:[
+    {type:"checks", heading:"Ethics and consent", intro:"Make sure the participant can give informed consent, including to being recorded.", items:[
       "Ethics approval reference to hand; using the approved version of the protocol",
       "Participant information sheet and consent form (two copies: one for you, one for the participant)",
       "Consent to audio recording covered explicitly on the form",
       "Distress or referral information ready, if the topic could be sensitive"]},
-    {type:"checks", heading:"Logistics", items:[
+    {type:"checks", heading:"Logistics", intro:"Arrange a time and place that is quiet, private and safe for both of you.", items:[
       "Time and place confirmed with the participant in writing",
       "Venue is quiet and private (or for online interviews: link sent, platform recording tested, participant knows how to join)",
       "Supervisor or a colleague knows where and when the interview takes place",
       "Extra time allowed before and after, so you're not rushing"]},
-    {type:"checks", heading:"Equipment", items:[
+    {type:"checks", heading:"Equipment", intro:"A failed recording can't be repeated, so test everything in advance.", items:[
       "Two recording devices, both tested in the actual room",
       "Devices charged, spare batteries or charger, enough storage space",
       "Phone on airplane or do-not-disturb mode",
       "Printed interview guide with probes, plus the cue card",
       "Notebook and pens; demographic sheet if one is used"]},
-    {type:"checks", heading:"Identification", items:[
+    {type:"checks", heading:"Identification", intro:"Keep the participant's identity separate from your data from the start.", items:[
       "Participant ID or pseudonym assigned (e.g., P03)",
       "Participant log updated"]},
-    {type:"checks", heading:"Readiness", items:[
+    {type:"checks", heading:"Readiness", intro:"Rehearse and reflect so you can give the participant your full attention.", items:[
       "Interview guide practised aloud at least once (a pilot with a peer is ideal)",
       "Phase 1 reflection completed"]}
    ]},
@@ -259,10 +274,10 @@ const PAGES = [
     {type:"prompts", heading:"Carry forward", intro:"One or two things to focus on in the next interview. Read these again before your next Phase 1.", start:8, items:[
       "What will I focus on next time?"]}
    ]},
-  {id:"part-c", tab:"part-c", letter:"C", label:"Data management", eyebrow:"Part C · After the interview",
+  {id:"part-c", accordion:true, tab:"part-c", letter:"C", label:"Data management", eyebrow:"Part C · After the interview",
    lead:"Tick these off as you go. The same-day items protect the recording; the rest prepare it for analysis.",
    blocks:[
-    {type:"checks", heading:"Same day", items:[
+    {type:"checks", heading:"Same day", intro:"Secure the recording and the consent form before anything else.", items:[
       "Recording stopped, file saved, and checked that it plays",
       "Audio transferred to secure, institution-approved storage",
       "Second backup copy made on approved storage",
@@ -272,13 +287,13 @@ const PAGES = [
       "Key linking names to IDs stored separately and securely",
       "Field notes and Phase 3a reflection saved under the same ID",
       "Participant log updated"]},
-    {type:"checks", heading:"Within a week: transcription", items:[
+    {type:"checks", heading:"Within a week: transcription", intro:"Turn the recording into an accurate, anonymised transcript while the interview is still fresh.", items:[
       "Transcript checked against the audio in a full second listen",
       "Transcript pseudonymised: names, places, institutions, other identifying details",
       "Final version saved and clearly labelled; working versions kept or deleted as the plan requires",
       "Transcript sent to the participant for checking, if the protocol includes this",
       "Phase 3b reflection completed"]},
-    {type:"checks", heading:"First-pass coding", items:[
+    {type:"checks", heading:"First-pass coding", intro:"Get to know the data as a whole before you start interpreting it.", items:[
       "Whole transcript read once without coding",
       "Short memo written on overall impressions",
       "Initial codes noted in the margin, staying close to the participant's words",
@@ -366,20 +381,41 @@ function renderSide(){
 }
 
 /* ---------- Page renderers ---------- */
+const OPEN = {};
 function renderBlock(p, b, bi){
+  const acc = p.accordion && b.type==="checks";
   const wrap = h("section",{class:"block"});
-  if (b.heading) wrap.append(h("h3",{},b.heading));
-  if (b.intro) wrap.append(h("p",{class:"guide"},b.intro));
+  if (b.heading && !acc) wrap.append(h("h3",{},b.heading));
+  if (b.intro && !acc) wrap.append(h("p",{class:"guide"},b.intro));
   if (b.type==="checks"){
     const ul = h("ul",{class:"checks"});
     b.items.forEach((t,i)=>{
       const id = iid(p.id,bi,i);
       const cb = h("input",{type:"checkbox",id:"c-"+id});
       cb.checked = !!S.checks[id];
-      cb.addEventListener("change",()=>{ S.checks[id]=cb.checked; persist(); });
+      cb.addEventListener("change",()=>{ S.checks[id]=cb.checked; persist(); updateCount(); });
       ul.append(h("li",{},h("label",{for:"c-"+id},cb,h("span",{},t))));
     });
-    wrap.append(ul);
+    const doneCount = () => b.items.filter((_,i)=>S.checks[iid(p.id,bi,i)]).length;
+    const count = h("span",{class:"acc-count"});
+    function updateCount(){
+      const d = doneCount();
+      count.textContent = `${d}/${b.items.length}`;
+      count.classList.toggle("done", d===b.items.length);
+    }
+    updateCount();
+    if (acc){
+      const key = p.id+"."+bi;
+      const firstOpen = p.blocks.findIndex((bb,k)=>bb.type==="checks" && bb.items.some((_,i)=>!S.checks[iid(p.id,k,i)]));
+      const det = h("details",{class:"acc",id:"acc-"+key});
+      det.open = key in OPEN ? OPEN[key] : bi===firstOpen;
+      det.addEventListener("toggle",()=>{ OPEN[key]=det.open; });
+      det.append(h("summary",{},
+        h("span",{class:"acc-text"},h("span",{class:"acc-title"},b.heading),h("span",{class:"acc-intro"},b.intro)),
+        count, h("span",{class:"acc-chev","aria-hidden":"true"})),
+        h("div",{class:"acc-body"},ul));
+      wrap.append(det);
+    } else wrap.append(ul);
   }
   if (b.type==="prompts"){
     b.items.forEach((q,i)=>{
@@ -506,6 +542,7 @@ function buildDocx(){
     if (p.title) kids.push(new Paragraph({text:p.title,heading:HeadingLevel.HEADING_2}));
     p.blocks.forEach((b,bi)=>{
       if (b.heading) kids.push(new Paragraph({text:b.heading,heading:HeadingLevel.HEADING_3}));
+      if (b.intro) kids.push(P(b.intro,{italics:true,color:"555555"}));
       if (b.type==="checks") b.items.forEach((t,i)=>kids.push(P(`${S.checks[iid(p.id,bi,i)]?"☑":"☐"}  ${t}`)));
       if (b.type==="list") b.items.forEach(t=>kids.push(new Paragraph({text:t,bullet:{level:0}})));
       if (b.type==="prompts") b.items.forEach((q,i)=>{
